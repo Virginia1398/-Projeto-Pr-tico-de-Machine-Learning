@@ -119,7 +119,7 @@ Para reproduzir a mesma janela de dados, ajuste temporariamente a linha `DATA_CO
     └── INSTRUCOES.md
 ```
 
-A pasta [`Apresentação/`](Apresenta%C3%A7%C3%A3o/Projeto%20Pr%C3%A1tico%20de%20Machine%20Learning.pdf)) contém orientações para incluir o link do vídeo e os slides finais após a revisão. O [guia de aplicação empresarial](Documenta%C3%A7%C3%A3o/GUIA_APLICACAO_EMPRESARIAL.md) está em `Documentação/`.
+A pasta [`Apresentação/`](Apresenta%C3%A7%C3%A3o/Projeto%20Pr%C3%A1tico%20de%20Machine%20Learning.pdf)contém orientações para incluir o link do vídeo e os slides finais após a revisão. O [guia de aplicação empresarial](Documenta%C3%A7%C3%A3o/GUIA_APLICACAO_EMPRESARIAL.md) está em `Documentação/`.
 
 ## Limitações e próximos passos
 
