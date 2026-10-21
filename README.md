@@ -84,7 +84,7 @@ A avaliação preserva a ordem temporal das observações e utiliza métricas de
 
 ## Como executar no Google Colab
 
-1. Abra no Google Colab o notebook [`Piloto_Estoque_Seguranca_MAQ001_APRIMORADO_COM_ROTEIRO.ipynb`](Notebook%20/Piloto_Estoque_Seguranca_MAQ001_APRIMORADO_COM_ROTEIRO.ipynb) publicado neste repositório.
+1. Abra no Google Colab o notebook [`Piloto_Estoque_Seguranca_MAQ001_APRIMORADO_COM_ROTEIRO.ipynb`](Notebook%20/Piloto_Estoque_Seguranca_MAQ001_APRIMORADO_COM_ROTEIRO.ipyn) publicado neste repositório.
 2. Execute as células na ordem apresentada (se necessário, instale as dependências indicadas em `requirements.txt`).
 3. Quando solicitado, carregue a [planilha sintética](dados/Planilha_Modelo_MAQ-001_ORIENTADA%281%29.xlsx), `Planilha_Modelo_MAQ-001_ORIENTADA(1).xlsx` (ou selecione o mesmo arquivo com nome diferente no diálogo de upload).
 4. Confira os parâmetros `MODELO = 'MAQ-001'`, `LT_MESES = 5` e a `DATA_CORTE` (por padrão, a data da execução).
