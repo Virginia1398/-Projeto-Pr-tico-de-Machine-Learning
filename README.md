@@ -119,7 +119,15 @@ Para reproduzir a mesma janela de dados, ajuste temporariamente a linha `DATA_CO
     └── INSTRUCOES.md
 ```
 
-A pasta [`Apresentação/`](Apresenta%C3%A7%C3%A3o/Projeto%20Pr%C3%A1tico%20de%20Machine%20Learning.pdf). Contém orientações para incluir o link do vídeo e os slides finais após a revisão. O [guia de aplicação empresarial](Documenta%C3%A7%C3%A3o/GUIA_APLICACAO_EMPRESARIAL.md) está em `Documentação/`.
+### 📁 Apresentação e documentação
+
+A apresentação final do projeto MAQ-001 e os materiais complementares estão disponíveis nos links abaixo:
+
+- 📊 **[Apresentação final do projeto (PDF)](Apresenta%C3%A7%C3%A3o/Projeto%20Pr%C3%A1tico%20de%20Machine%20Learning.pdf)** — Slides com a metodologia, os resultados e as conclusões do estudo.
+- 🎬 **[Assistir à apresentação em vídeo](https://drive.google.com/file/d/1a8o3tcRSxBUn2DRekDKIjnnRHSZ0IiMB/view?usp=drive_link)** — Gravação da apresentação e demonstração do projeto.
+- 📘 **[Guia de aplicação empresarial](Documenta%C3%A7%C3%A3o/GUIA_APLICACAO_EMPRESARIAL.md)** — Orientações para uma possível aplicação da metodologia em um cenário empresarial real.
+
+**Observação:** este projeto utiliza dados sintéticos e apresenta resultados exploratórios. Sua aplicação operacional depende de validação com dados reais.
 
 ## Limitações e próximos passos
 
