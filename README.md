@@ -84,9 +84,9 @@ A avaliação preserva a ordem temporal das observações e utiliza métricas de
 
 ## Como executar no Google Colab
 
-1. Abra no Google Colab o notebook `.ipynb` correspondente à versão publicada neste repositório.
+1. Abra no Google Colab o notebook [`Piloto_Estoque_Seguranca_MAQ001_APRIMORADO_COM_ROTEIRO.ipynb`](Notebook/Piloto_Estoque_Seguranca_MAQ001_APRIMORADO_COM_ROTEIRO.ipynb) publicado neste repositório.
 2. Execute as células na ordem apresentada (se necessário, instale as dependências indicadas em `requirements.txt`).
-3. Quando solicitado, carregue a planilha sintética correspondente, `Planilha_Modelo_MAQ-001_ORIENTADA(1).xlsx` (ou selecione o mesmo arquivo com nome diferente no diálogo de upload).
+3. Quando solicitado, carregue a [planilha sintética](dados/Planilha_Modelo_MAQ-001_ORIENTADA%281%29.xlsx), `Planilha_Modelo_MAQ-001_ORIENTADA(1).xlsx` (ou selecione o mesmo arquivo com nome diferente no diálogo de upload).
 4. Confira os parâmetros `MODELO = 'MAQ-001'`, `LT_MESES = 5` e a `DATA_CORTE` (por padrão, a data da execução).
 5. Preserve os nomes e a estrutura das abas esperados **pela versão do notebook escolhida**. No notebook definitivo, as abas são `L'On`, `FORN-A`, `FORN-B` e `FORN-C`.
 6. Analise as tabelas, gráficos, matriz de cobertura, datasheet e resultados de Machine Learning gerados pelo notebook.
@@ -102,25 +102,24 @@ As métricas da apresentação foram reproduzidas no Google Colab com **scikit-l
 
 Para reproduzir a mesma janela de dados, ajuste temporariamente a linha `DATA_CORTE` na primeira célula de código para `pd.Timestamp('2026-10-20')`. Por padrão, o notebook usa a data atual e os resultados poderão mudar. Isso não altera a metodologia; restaure o padrão após a verificação.
 
-## Organização sugerida do repositório
+## Organização do repositório
 
 ```text
-MAQ001-Estoque-Seguranca/
+-Projeto-Pr-tico-de-Machine-Learning/
 ├── README.md
-├── notebook/
+├── requirements.txt
+├── Notebook/
 │   └── Piloto_Estoque_Seguranca_MAQ001_APRIMORADO_COM_ROTEIRO.ipynb
 ├── dados/
 │   └── Planilha_Modelo_MAQ-001_ORIENTADA(1).xlsx
-├── resultados/
-│   └── [arquivos exportados, quando disponíveis]
-├── documentacao/
-│   └── GUIA_APLICACAO_EMPRESARIAL.md
-├── requirements.txt
-└── apresentacao/
+├── Documentação/
+│   ├── GUIA_APLICACAO_EMPRESARIAL.md
+│   └── CONFERENCIA_PUBLICACAO.md
+└── Apresentação/
     └── INSTRUCOES.md
 ```
 
-A pasta de apresentação contém orientações para incluir o link do vídeo e os slides finais após a revisão.
+A pasta [`Apresentação/`](Apresenta%C3%A7%C3%A3o/INSTRUCOES.md) contém orientações para incluir o link do vídeo e os slides finais após a revisão. O [guia de aplicação empresarial](Documenta%C3%A7%C3%A3o/GUIA_APLICACAO_EMPRESARIAL.md) está em `Documentação/`.
 
 ## Limitações e próximos passos
 
